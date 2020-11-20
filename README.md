@@ -32,6 +32,10 @@ $ npm run build:prod
 
 [更新记录](./VSERSION.md)
 
+## 未来版本更新计划
+
+- 集成 `vuex-persistedstate` [NPM地址](https://www.npmjs.com/package/vuex-persistedstate)
+
 ## 项目目的
 
 由于项目非常大有重构和继续新增的需求，维护和更新都有很大的成本，所以分离出每个大菜单单独成为一个项目
