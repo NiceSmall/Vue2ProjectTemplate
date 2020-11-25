@@ -19,6 +19,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
+  // 此处的base 需要在vue.config.js中同样配置一份
   base: '/webpath/a/',
   routes
 })
