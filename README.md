@@ -1,4 +1,4 @@
-# 前端分离项目开发模板 V1.0
+# 前端分离项目开发模板 手机端 V1.0
 
 使用CDN进行打包生成文件的优化,压缩后开启`Gzipped`的大小在20kb,其中包含了`@babel/polyfill`/`axios`/`vuex`/`vue`/`vue-router`/`echarts`/`element-ui`/`高德地图API`
 

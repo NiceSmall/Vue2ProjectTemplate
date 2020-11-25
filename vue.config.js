@@ -96,21 +96,8 @@ module.exports = {
   },
   // 默认情况下 babel-loader 会忽略所有 node_modules 中的文件。如果你想要通过 Babel 显式转译一个依赖，可以在这个选项中列出来
   css: {
-    // 启用 CSS modules
-    requireModuleExtension: false,
-    // 是否使用css分离插件
-    extract: true,
-    // 开启 CSS source maps?
-    sourceMap: false,
     // css预设器配置项
     loaderOptions: {
-      postcss: {
-        plugins: [
-          require('precss'),
-          require('autoprefixer'),
-          require('postcss-flexibility')
-        ]
-      }
     }
   },
   // 第三方插件配置
